@@ -1,4 +1,4 @@
-import { Container } from './styles';
+import { Container, Button } from './styles';
 import backgroundMap from '../../assets/ascent.png';
 
 export default function CrosshairsCard() {
@@ -6,7 +6,13 @@ export default function CrosshairsCard() {
     <Container>
        <h1>PONTINHO</h1>
        <img src={backgroundMap} alt="Ascent"/>
-       <button>Usar Esta</button>
+
+       <Button>
+         <button>
+            Usar Esta
+         </button>
+       </Button>
+       <span>PONTINHO</span>
     </Container>    
    )
  }

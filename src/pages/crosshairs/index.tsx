@@ -10,7 +10,7 @@ export default function Crosshairs() {
             <img src={logo} alt=""/>
             <nav>
                <div>
-                  <a href="/crosshairs">mirinha</a>
+                  <a href="/crosshairs">mirinhas</a>
                </div>
                <div>
                   <a href="">skins</a>

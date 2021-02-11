@@ -1,6 +1,7 @@
 import { Container, CardsWrappers, Header } from '../../styles/pages/crosshairs';
 import CrosshairCard from '../../components/crosshair-card';
 import logo from '../../assets/logo.svg';
+import crosshairs from '../../assets/source/crosshairs.json';
 
 export default function Crosshairs() {
    return (
@@ -20,20 +21,12 @@ export default function Crosshairs() {
             </button>
          </Header>
          <CardsWrappers>
-            <CrosshairCard/>
-            <CrosshairCard/>
-            <CrosshairCard/>
-            <CrosshairCard/>
-            <CrosshairCard/>
-            <CrosshairCard/>
-            <CrosshairCard/>
-            <CrosshairCard/>
-            <CrosshairCard/>
-            <CrosshairCard/>
-            <CrosshairCard/>
-            <CrosshairCard/>
-            <CrosshairCard/>
-            <CrosshairCard/>
+            {crosshairs.map(crosshair => (
+               <CrosshairCard 
+                  key={crosshair.name}
+                  name={crosshair.name}
+               />
+            ))}
          </CardsWrappers>
     </Container>    
    )

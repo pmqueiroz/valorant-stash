@@ -1,0 +1,278 @@
+[
+   {
+      "name": "pontinho",
+      "general": {
+         "outlines": false,
+         "outline-opacity": 0,
+         "outline-thickness": 0,
+         "center-dot": false,
+         "center-dot-opacity": 0
+      },
+      "inner-line": {
+         "shown": false,
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      },
+      "outer-lines": {
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      }
+   },
+   {
+      "name": "jogo da velha",
+      "general": {
+         "outlines": false,
+         "outline-opacity": 0,
+         "outline-thickness": 0,
+         "center-dot": false,
+         "center-dot-opacity": 0
+      },
+      "inner-line": {
+         "shown": false,
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      },
+      "outer-lines": {
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      }
+   },
+   {
+      "name": "cruz fechada",
+      "general": {
+         "outlines": true,
+         "outline-opacity": 0,
+         "outline-thickness": 1,
+         "center-dot": false,
+         "center-dot-opacity": 1
+      },
+      "inner-line": {
+         "shown": false,
+         "opacity": 1,
+         "length": 3,
+         "thickness": 1,
+         "offset": 1
+      },
+      "outer-lines": {
+         "opacity": 1,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      }
+   },
+   {
+      "name": "cruz aberta",
+      "general": {
+         "outlines": false,
+         "outline-opacity": 0,
+         "outline-thickness": 0,
+         "center-dot": false,
+         "center-dot-opacity": 0
+      },
+      "inner-line": {
+         "shown": false,
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      },
+      "outer-lines": {
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      }
+   },
+   {
+      "name": "sacy",
+      "general": {
+         "outlines": false,
+         "outline-opacity": 0,
+         "outline-thickness": 0,
+         "center-dot": false,
+         "center-dot-opacity": 0
+      },
+      "inner-line": {
+         "shown": false,
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      },
+      "outer-lines": {
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      }
+   },
+   {
+      "name": "mwzera",
+      "general": {
+         "outlines": false,
+         "outline-opacity": 0,
+         "outline-thickness": 0,
+         "center-dot": false,
+         "center-dot-opacity": 0
+      },
+      "inner-line": {
+         "shown": false,
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      },
+      "outer-lines": {
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      }
+   },
+   {
+      "name": "xand",
+      "general": {
+         "outlines": false,
+         "outline-opacity": 0,
+         "outline-thickness": 0,
+         "center-dot": false,
+         "center-dot-opacity": 0
+      },
+      "inner-line": {
+         "shown": false,
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      },
+      "outer-lines": {
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      }
+   },
+   {
+      "name": "hastad",
+      "general": {
+         "outlines": false,
+         "outline-opacity": 0,
+         "outline-thickness": 0,
+         "center-dot": false,
+         "center-dot-opacity": 0
+      },
+      "inner-line": {
+         "shown": false,
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      },
+      "outer-lines": {
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      }
+   },
+   {
+      "name": "fznn",
+      "general": {
+         "outlines": false,
+         "outline-opacity": 0,
+         "outline-thickness": 0,
+         "center-dot": false,
+         "center-dot-opacity": 0
+      },
+      "inner-line": {
+         "shown": false,
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      },
+      "outer-lines": {
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      }
+   },
+   {
+      "name": "shroud",
+      "general": {
+         "outlines": false,
+         "outline-opacity": 0,
+         "outline-thickness": 0,
+         "center-dot": false,
+         "center-dot-opacity": 0
+      },
+      "inner-line": {
+         "shown": false,
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      },
+      "outer-lines": {
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      }
+   },
+   {
+      "name": "shroud",
+      "general": {
+         "outlines": false,
+         "outline-opacity": 0,
+         "outline-thickness": 0,
+         "center-dot": false,
+         "center-dot-opacity": 0
+      },
+      "inner-line": {
+         "shown": false,
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      },
+      "outer-lines": {
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      }
+   },
+   {
+      "name": "skadoodle",
+      "general": {
+         "outlines": false,
+         "outline-opacity": 0,
+         "outline-thickness": 0,
+         "center-dot": false,
+         "center-dot-opacity": 0
+      },
+      "inner-line": {
+         "shown": false,
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      },
+      "outer-lines": {
+         "opacity": 0,
+         "length": 0,
+         "thickness": 0,
+         "offset": 0
+      }
+   }
+]

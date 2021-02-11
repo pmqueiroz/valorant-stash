@@ -17,6 +17,7 @@ export const Container = styled.div`
       color: var(--color-primary);
       width: 100%;
       z-index: 2;
+      text-transform: uppercase;
    }
 
    img {
@@ -27,12 +28,14 @@ export const Container = styled.div`
 
    span {
       font: 700 13rem Tungsten;
+      text-transform: uppercase;
       margin-top: -10rem;
       bottom: 0rem;
       color: transparent;
       -webkit-text-stroke: 1px rgba(189, 188, 183, 0.3);
       transform: rotate(-5deg);
       z-index: 0;
+      user-select: none;
    }
 `;
 
@@ -53,6 +56,7 @@ export const Button = styled.div`
       cursor: pointer;
       display: relative;
       transition: color 0.2s;
+      user-select: none;
 
       &:hover{
          color: var(--color-background-boxes);

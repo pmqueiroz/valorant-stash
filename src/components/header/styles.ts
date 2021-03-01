@@ -34,7 +34,7 @@ export const Container = styled.div`
       align-items: center;
       margin-right: auto;
 
-      div {
+      a {
          display: flex;
          justify-content: center;
          align-items: center;
@@ -42,6 +42,7 @@ export const Container = styled.div`
          width: calc(100% + 2rem);
          border-bottom: 0.3rem transparent solid;
          transition: border-color .2s;
+         text-decoration: none;
 
          &:hover {
             border-color: var(--color-primary);
@@ -51,11 +52,11 @@ export const Container = styled.div`
             border-color: var(--color-primary);
          }
 
-         & + div {
+         & + a {
             margin-left: 3rem;
          }
             
-         a {
+         span {
             text-decoration: none;
             font: 700 1.5rem Roboto;
             text-transform: uppercase;

@@ -10,12 +10,12 @@ export default function Header() {
       <Container>
          <img src="logo.svg" alt=""/>
          <nav>
-            <div className={path === '/crosshairs' && 'active'}>
-               <a href="/crosshairs">mirinhas</a>
-            </div>
-            <div className={path === '/skins' && 'active'}>
-               <a href="">skins</a>
-            </div>
+            <a href="/crosshairs" className={path === '/crosshairs' && 'active'}>
+               <span >mirinhas</span>
+            </a>
+            <a href="/skins" className={path === '/skins' && 'active'}>
+               <span >skins</span>
+            </a>
          </nav>
          <button>
             Discord

@@ -14,7 +14,7 @@ export default createGlobalStyle`
    body {
       background: var(--color-background);
       color: var(--color-text-in-primary);
-      font-family: Tungsten, Arial, sans-serif;
+      font-family: 'Tungsten', Arial, sans-serif;
    }
    
    :root{
@@ -45,8 +45,8 @@ export default createGlobalStyle`
    }
 
    @font-face {
-      font-family: "Tungsten";
-      src: url('../assets/fonts/Tungsten-Bold.ttf');
+      font-family: 'Tungsten';
+      src: url('fonts/Tungsten-Bold.woff2') format('woff2');
       font-style: bold;
       font-weight: 700;
       font-display: swap;

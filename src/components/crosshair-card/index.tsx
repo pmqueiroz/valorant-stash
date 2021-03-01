@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Button } from './styles';
-import backgroundMap from '../../assets/ascent.png';
 
 interface CrosshairsCardData {
    name: string;   
@@ -10,7 +9,7 @@ const CrosshairsCard: React.FunctionComponent<CrosshairsCardData> = ({ name, ...
    return (
     <Container>
        <h1>{name}</h1>
-       <img src={backgroundMap} alt="Ascent"/>
+       <img src="ascent.png" alt="Ascent"/>
 
        <Button>
          <button>

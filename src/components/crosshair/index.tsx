@@ -1,15 +1,8 @@
-import React from 'react';
-import Crosshair from '../crosshair';
-import { Container } from './styles';
-import Button from '../button'
+import { type } from 'os';
+import { Container, Wrapper } from './styles';
 import { CrosshairData } from '../../utils/types';
 
-interface CrosshairsCardData extends CrosshairData{
-   name: string;   
-}
-
-const CrosshairsCard: React.FunctionComponent<CrosshairsCardData> = ({ 
-   name, 
+export default function Crosshair({
    centerDot,
    centerDotOpacity,
    centerDotThickness,
@@ -24,13 +17,11 @@ const CrosshairsCard: React.FunctionComponent<CrosshairsCardData> = ({
    outerLinesOpacity,
    outerLinesLength,
    outerLinesThickness,
-   outerLinesOffset,
-}) => {
+   outerLinesOffset
+}: CrosshairData) {
    return (
-    <Container>
-       <h1>{name}</h1>
-       <div className="bg">
-         <Crosshair
+      <Container>
+         <Wrapper 
             centerDot={centerDot}
             centerDotOpacity={centerDotOpacity}
             centerDotThickness={centerDotThickness}
@@ -46,15 +37,13 @@ const CrosshairsCard: React.FunctionComponent<CrosshairsCardData> = ({
             outerLinesLength={outerLinesLength}
             outerLinesThickness={outerLinesThickness}
             outerLinesOffset={outerLinesOffset}
-         />
-       </div>
-
-       <Button>
-            Usar Esta
-       </Button>
-       <span>{name.replace(/\s/g,'')}</span>
-    </Container>    
-   )
- };
-
- export default CrosshairsCard;
+         >
+            {/* <span className="inner-lines-up" />
+            <span className="inner-lines-right" />
+            <span className="inner-lines-bottom" />
+            <span className="inner-lines-left" /> */}
+            <span className="center-dot" />
+         </Wrapper>
+      </Container>
+   );
+}

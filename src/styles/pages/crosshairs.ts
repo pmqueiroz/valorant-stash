@@ -12,6 +12,7 @@ export const CardsWrappers = styled.div`
    display: grid;
    justify-items: center;
    grid-template-columns: 1fr 1fr 1fr 1fr;
+   padding-bottom: 5rem;
 
    div {
       margin-top: 5rem;

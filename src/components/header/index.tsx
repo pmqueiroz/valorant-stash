@@ -10,10 +10,10 @@ export default function Header() {
       <Container>
          <img src="logo.svg" alt=""/>
          <nav>
-            <a href="/crosshairs" className={path === '/crosshairs' && 'active'}>
+            <a href="/crosshairs" className={path === '/crosshairs' ? 'active' : undefined}>
                <span >mirinhas</span>
             </a>
-            <a href="/skins" className={path === '/skins' && 'active'}>
+            <a href="/skins" className={path === '/skins' ? 'active' : undefined}>
                <span >skins</span>
             </a>
          </nav>

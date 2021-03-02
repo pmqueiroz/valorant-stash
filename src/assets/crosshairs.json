@@ -5,8 +5,9 @@
          "outlines": false,
          "outline-opacity": 0,
          "outline-thickness": 0,
-         "center-dot": false,
-         "center-dot-opacity": 0
+         "center-dot": true,
+         "center-dot-thickness": 6,
+         "center-dot-opacity": 1
       },
       "inner-line": {
          "shown": false,
@@ -29,6 +30,7 @@
          "outline-opacity": 0,
          "outline-thickness": 0,
          "center-dot": false,
+         "center-dot-thickness": 0,
          "center-dot-opacity": 0
       },
       "inner-line": {
@@ -52,6 +54,7 @@
          "outline-opacity": 0,
          "outline-thickness": 1,
          "center-dot": false,
+         "center-dot-thickness": 0,
          "center-dot-opacity": 1
       },
       "inner-line": {
@@ -75,6 +78,7 @@
          "outline-opacity": 0,
          "outline-thickness": 0,
          "center-dot": false,
+         "center-dot-thickness": 0,
          "center-dot-opacity": 0
       },
       "inner-line": {
@@ -98,6 +102,7 @@
          "outline-opacity": 0,
          "outline-thickness": 0,
          "center-dot": false,
+         "center-dot-thickness": 0,
          "center-dot-opacity": 0
       },
       "inner-line": {
@@ -121,6 +126,7 @@
          "outline-opacity": 0,
          "outline-thickness": 0,
          "center-dot": false,
+         "center-dot-thickness": 0,
          "center-dot-opacity": 0
       },
       "inner-line": {
@@ -144,6 +150,7 @@
          "outline-opacity": 0,
          "outline-thickness": 0,
          "center-dot": false,
+         "center-dot-thickness": 0,
          "center-dot-opacity": 0
       },
       "inner-line": {
@@ -167,6 +174,7 @@
          "outline-opacity": 0,
          "outline-thickness": 0,
          "center-dot": false,
+         "center-dot-thickness": 0,
          "center-dot-opacity": 0
       },
       "inner-line": {
@@ -190,6 +198,7 @@
          "outline-opacity": 0,
          "outline-thickness": 0,
          "center-dot": false,
+         "center-dot-thickness": 0,
          "center-dot-opacity": 0
       },
       "inner-line": {
@@ -213,6 +222,7 @@
          "outline-opacity": 0,
          "outline-thickness": 0,
          "center-dot": false,
+         "center-dot-thickness": 0,
          "center-dot-opacity": 0
       },
       "inner-line": {
@@ -230,12 +240,13 @@
       }
    },
    {
-      "name": "shroud",
+      "name": "coreano",
       "general": {
          "outlines": false,
          "outline-opacity": 0,
          "outline-thickness": 0,
          "center-dot": false,
+         "center-dot-thickness": 0,
          "center-dot-opacity": 0
       },
       "inner-line": {
@@ -259,6 +270,7 @@
          "outline-opacity": 0,
          "outline-thickness": 0,
          "center-dot": false,
+         "center-dot-thickness": 0,
          "center-dot-opacity": 0
       },
       "inner-line": {

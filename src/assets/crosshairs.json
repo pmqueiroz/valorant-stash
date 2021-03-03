@@ -6,14 +6,14 @@
          "outline-opacity": 0,
          "outline-thickness": 0,
          "center-dot": true,
-         "center-dot-thickness": 6,
+         "center-dot-thickness": 1,
          "center-dot-opacity": 1
       },
       "inner-line": {
-         "shown": false,
-         "opacity": 0,
-         "length": 0,
-         "thickness": 0,
+         "shown": true,
+         "opacity": 1,
+         "length": 2,
+         "thickness": 3,
          "offset": 0
       },
       "outer-lines": {
@@ -75,23 +75,47 @@
       "name": "cruz aberta",
       "general": {
          "outlines": false,
-         "outline-opacity": 0,
-         "outline-thickness": 0,
+         "outline-opacity": 1,
+         "outline-thickness": 4,
          "center-dot": false,
          "center-dot-thickness": 0,
          "center-dot-opacity": 0
       },
       "inner-line": {
-         "shown": false,
-         "opacity": 0,
-         "length": 0,
-         "thickness": 0,
+         "shown": true,
+         "opacity": 1,
+         "length": 2,
+         "thickness": 2,
          "offset": 0
       },
       "outer-lines": {
          "opacity": 0,
          "length": 0,
          "thickness": 0,
+         "offset": 0
+      }
+   },
+   {
+      "name": "joystick",
+      "general": {
+         "outlines": true,
+         "outline-opacity": 0.5,
+         "outline-thickness": 1,
+         "center-dot": false,
+         "center-dot-opacity": 1,
+         "center-dot-thickness": 2
+      },
+      "inner-line": {
+         "shown": false,
+         "opacity": 1,
+         "length": 3,
+         "thickness": 1,
+         "offset": 2
+      },
+      "outer-lines": {
+         "opacity": 1,
+         "length": 2,
+         "thickness": 3,
          "offset": 0
       }
    },

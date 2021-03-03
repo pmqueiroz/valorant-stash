@@ -1,4 +1,3 @@
-import { type } from 'os';
 import { Container, Wrapper } from './styles';
 import { CrosshairData } from '../../utils/types';
 
@@ -38,11 +37,19 @@ export default function Crosshair({
             outerLinesThickness={outerLinesThickness}
             outerLinesOffset={outerLinesOffset}
          >
-            {/* <span className="inner-lines-up" />
-            <span className="inner-lines-right" />
-            <span className="inner-lines-bottom" />
-            <span className="inner-lines-left" /> */}
+            <span className="inner-lines-up" >
+               <span />
+            </span>
+            <span className="inner-lines-right" >
+               <span />
+            </span>
             <span className="center-dot" />
+            <span className="inner-lines-bottom" >
+               <span />
+            </span>
+            <span className="inner-lines-left" >
+               <span />
+            </span>
          </Wrapper>
       </Container>
    );

@@ -19,7 +19,6 @@ export const Container = styled.div`
       z-index: 1;
       position: relative;
       background: url('ascent.png') no-repeat center;
-      background: white;
    }
 
    h1 {
